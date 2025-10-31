@@ -11,7 +11,7 @@ const Hero = () => {
     >
       <div className="hero-overlay"></div>
       <div className="hero-content text-neutral-content text-center">
-        <div className="max-w-md">
+        <div className="flex flex-col text-center items-center">
           <h1 className="mb-5 text-5xl font-bold">The Legacy of 1971</h1>
           <p className="mb-5">
             The year 1971 marked a turning point in the history of Bangladesh—a
@@ -21,7 +21,7 @@ const Hero = () => {
             story etched in the hearts of millions, reminding future generations
             of the price of independence and the power of unity.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn bg-[#4c9b6e] w-2/12">Get Started</button>
         </div>
       </div>
     </div>
